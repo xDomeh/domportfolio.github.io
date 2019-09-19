@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dominic Husaru</title>
+    <link rel="icon" href="./img/asgara.ico" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="nav">
+      <div class="logo">
+        <h3>Dominic Husaru</h3>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HEADING PAGE -->
+    <section class="heading">
+      <div class="text-wrap">
+        <h1 class="text-animate">
+          Dominic Husaru | Web developer.
+        </h1>
+      </div>
+      <p class="arrow pb">&darr;</p>
+    </section>
+
+    <hr id="about" />
+
+    <!-- ABOUT -->
+    <section data-aos="flip-right" id="about" class="about space">
+      <h1 class="title">About me</h1>
+      <div class="about-text mb">
+        <div class="about-box">
+          <svg class="display">
+            <use xlink:href="img/sprite.svg#icon-display"></use>
+          </svg>
+        </div>
+        <p class="thin pt pb">
+          Hi, I'm Dominic Husaru, I'm 16 years old and I like technology. I
+          always liked computers and since I was a child, I play with them for
+          hours and hours. I'm actually studying IT in ITI Hensemberger. In my
+          free time I like to learn new things and play football.
+        </p>
+      </div>
+    </section>
+
+    <hr id="skills" />
+
+    <!-- SKILLS -->
+    <section data-aos="fade-left" id="skills" class="skills space">
+      <h1 class="title pt">My skills</h1>
+      <p class="thin pt pb">
+        I learn HTML, CSS and JavaScript. I also learned Bootstrap. In the
+        future I'm going to learn a JavaScript framework like VueJS for improve
+        my work. I also learned python, because is simple to learn but it's
+        powerful.
+      </p>
+      <div class="my-skills mb">
+        <div class="box-1">
+          <svg class="html">
+            <use xlink:href="img/sprite.svg#icon-html5"></use>
+          </svg>
+        </div>
+        <div class="box-2">
+          <svg class="css">
+            <use href="img/sprite.svg#icon-css3"></use>
+          </svg>
+        </div>
+        <div class="box-3">
+          <svg class="js">
+            <use href="img/sprite.svg#icon-javascript"></use>
+          </svg>
+        </div>
+        <div class="box-3">
+          <svg class="py">
+            <use href="img/sprite.svg#icon-python"></use>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <hr id="projects" />
+
+    <!-- PROJECTS -->
+    <section data-aos="zoom-in" id="projects" class="projects space mb">
+      <h1 class="title pt">Projects</h1>
+      <p class="thin pt pb">
+        You can check my
+        <a href="https://github.com/xDomeh" target="_blank">Github</a> account
+        to see my projects.
+      </p>
+      <div class="container">
+        <div class="project project-1">
+          <h5 class="pb-l">Soundboard De Rosa</h5>
+          <p class="thin pb-l">
+            This website was created for make a joke to my friend Gabriele.
+          </p>
+          <form action="https://xdomeh.github.io/derosa.github.io/">
+            <input
+              type="submit"
+              formtarget="__blank"
+              class="btn-grid"
+              value="Check It"
+            />
+          </form>
+        </div>
+        <div class="project project-2">
+          <h5 class="pb-l">Glozzom</h5>
+          <p class="thin pb-l">
+            This website was created while is was doing a Bootstrap course by
+            Brad Traversy.
+          </p>
+          <form action="https://xdomeh.github.io/glozzom.github.io/">
+            <input
+              type="submit"
+              formtarget="__blank"
+              class="btn-grid"
+              value="Check It"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <hr id="contact" />
+
+    <!-- CONTACT ME -->
+    <section data-aos="fade-right" id="contact" class="contact space mb2">
+      <h1 class="title pt">Contact me</h1>
+      <p class="thin pt pb">
+        If you want to collaborate or only contact me for something, check my
+        email and my instagram.
+      </p>
+      <div class="social pb">
+        <button class="btn">
+          <a href="mailto:dominichusaru003@gmail.com">
+            <svg class="social-icon">
+              <use href="img/sprite.svg#icon-gmail"></use>
+            </svg>
+          </a>
+        </button>
+        <button class="btn">
+          <a href="https://www.instagram.com/domhsr/" target="_blank">
+            <svg class="social-icon">
+              <use href="img/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <h3 class="footer-text">&copy; 2019 Dominic Husaru</h3>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
